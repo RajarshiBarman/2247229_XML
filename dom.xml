@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="dom.xsl" type="text/xsl"?>
+<codemia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dom.xsd">
+    <users>
+        <id>1</id>
+        <fname>Rajarshi</fname>
+        <lname>Barman</lname>
+        <user_id>121</user_id>
+        <dob>2001-05-07</dob>
+        <age>21</age>
+        <phno>8617582806</phno>
+        <email_id>raj@gmail.com</email_id>
+        <uname>Zeus</uname>
+    </users>
+    <users>
+        <id>2</id>
+        <fname>Isar</fname>
+        <lname>Rahman</lname>
+        <user_id>122</user_id>
+        <dob>2000-12-28</dob>
+        <age>22</age>
+        <phno>7784521958</phno>
+        <email_id>isa@gmail.com</email_id>
+        <uname>Cigg</uname>
+    </users>
+</codemia>

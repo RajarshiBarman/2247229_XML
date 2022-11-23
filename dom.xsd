@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="codemia">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="users" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id" type="xs:string"></xs:element>
+                            <xs:element name="fname" type="xs:string"></xs:element>
+                            <xs:element name="lname" type="xs:string"></xs:element>
+                            <xs:element name="user_id">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:pattern value="[0-9]{3}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="dob" type="xs:date"></xs:element>
+                            <xs:element name="age" type="xs:integer"></xs:element>
+                            <xs:element name="phno">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:pattern value="[0-9]{10}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="email_id" type="xs:string"></xs:element>
+                            <xs:element name="uname" type="xs:string"></xs:element>
+                        </xs:sequence> 
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
